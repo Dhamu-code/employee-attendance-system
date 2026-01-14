@@ -1,0 +1,457 @@
+/* Login Page*/
+.login-page {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.login-card {
+  background: #ffffff;
+  width: 360px;
+  padding: 35px 30px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 6px;
+  color: #1e293b;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 18px;
+  margin-right: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #334155;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.login-btn {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background: #1d4ed8;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 20px;
+}
+/*----------------------------*/
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.success {
+  background: #16a34a;
+  color: white;
+}
+
+.danger {
+  background: #dc2626;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.employee-page {
+  max-width: 900px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.empty-text {
+  color: gray;
+}
+
+.employee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.employee-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.employee-info h4 {
+  margin: 0;
+}
+
+.employee-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.employee-info span {
+  font-size: 14px;
+  color: #333;
+}
+
+.employee-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn.edit {
+  background: #facc15;
+}
+
+.btn.reset {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn.disable {
+  background: #dc2626;
+  color: white;
+}
+
+.edit-box {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.edit-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn.save {
+  background: #16a34a;
+  color: white;
+}
+
+.btn.cancel {
+  background: #6b7280;
+  color: white;
+}
+
+.create-employee-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.create-card {
+  background: white;
+  padding: 25px;
+  width: 360px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.create-card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.create-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-card button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.create-card button:hover {
+  background: #4338ca;
+}
+.disabled-page {
+  max-width: 900px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.empty-text {
+  color: gray;
+}
+
+.disabled-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.disabled-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.disabled-info h4 {
+  margin: 0;
+}
+
+.disabled-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.enable-btn {
+  padding: 8px 14px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.enable-btn:hover {
+  background: #15803d;
+}
+
+.payroll-page {
+  max-width: 900px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.payroll-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.payroll-filter input {
+  padding: 8px;
+}
+
+.payroll-filter button {
+  padding: 8px 14px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payroll-filter button:hover {
+  background: #4338ca;
+}
+
+.empty-text {
+  color: gray;
+}
+
+.payroll-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.payroll-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.payroll-card h4 {
+  margin: 0;
+}
+
+.payroll-card p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.salary {
+  font-size: 16px;
+  font-weight: bold;
+  color: #16a34a;
+}
+
+/*Attendance Record*/
+.attendance-page {
+  max-width: 900px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.attendance-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.attendance-filter input {
+  padding: 8px;
+}
+
+.attendance-filter button {
+  padding: 8px 14px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.attendance-filter button:hover {
+  background: #4338ca;
+}
+
+.empty-text {
+  color: gray;
+}
+
+.attendance-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 12px 15px;
+}
+
+.table-header {
+  background: #f1f5f9;
+  font-weight: bold;
+}
+
+.table-row {
+  border-top: 1px solid #e5e7eb;
+}
+
+.table-row span {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

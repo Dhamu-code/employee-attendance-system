@@ -1,0 +1,11 @@
+const express = require("express");
+const router = express.Router();
+const {
+  login,
+  resetPassword
+} = require("../controllers/authController");
+
+router.post("/login", login);
+router.post("/reset-password/:token", resetPassword);
+
+module.exports = router;
