@@ -115,3 +115,23 @@ npm run dev
 Dhamodharan P
 B.Sc Computer Science
 MERN Full Stack Developer
+
+---
+
+## 🌐 Live Demo
+
+🔗 Frontend: https://employee-attendancesystem.netlify.app/
+🔗 Backend API: https://employee-attendance-system-wqyr.onrender.com
+
+> ⚠️ Note: Admin login required to create employees.  
+> Use employee credentials to test attendance and payroll features.
+
+### 🔑 Demo Credentials
+
+**Admin**
+- Email: admin@test.com
+- Password: 123456
+
+**Employee**
+- Email: test@test.com
+- Password: 123456
